@@ -1,0 +1,25 @@
+export const siteConfig = {
+  name: "سفرجيت | SafarJet",
+  nameEn: "SafarJet Travel & Tourism",
+  slogan: "العالم أقرب",
+  sloganSub: "رحلات .. تجارب .. وجهات بلا حدود",
+  description: "مع سفر جيت، نفتح لك أبواب العالم لتعيش تجارب سفر مميزة ومتكاملة",
+  phone: "+966500000000",
+  whatsapp: "+966500000000",
+  email: "info@safarjet.com",
+  address: "المملكة العربية السعودية - الرياض",
+  licenseNumber: "TR-70892-KSA",
+  socials: {
+    twitter: "https://twitter.com/safarjet",
+    instagram: "https://instagram.com/safarjet",
+    snapchat: "https://snapchat.com/add/safarjet",
+    tiktok: "https://tiktok.com/@safarjet",
+  },
+  colors: {
+    navy: "#0A2240",
+    navyDark: "#061528",
+    cyan: "#00A3E0",
+    cyanHover: "#0284C7",
+    gold: "#C59B27",
+  },
+};

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-cairo: 'Cairo', sans-serif;
+  --font-readex: 'Readex Pro', sans-serif;
+}
+
+body {
+  font-family: var(--font-cairo);
+  background-color: #f8fafc;
+  color: #0f172a;
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+/* Custom Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #061528;
+}
+::-webkit-scrollbar-thumb {
+  background: #00A3E0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C59B27;
+}
+
+/* Glassmorphism helpers */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-dark {
+  background: rgba(10, 34, 64, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* SafarJet Flight Transitions Animations */
+@keyframes jetClimb {
+  0% {
+    transform: translate(40px, 40px) scale(0.85) rotate(-25deg);
+    opacity: 0;
+  }
+  40% {
+    transform: translate(0, 0) scale(1) rotate(-15deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50px, -50px) scale(1.15) rotate(-35deg);
+    opacity: 0.95;
+  }
+}
+
+@keyframes contrailPulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scaleX(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleX(1.1);
+  }
+}
+
+@keyframes radarSweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-jet-climb {
+  animation: jetClimb 1.2s cubic-bezier(0.16, 1, 0.3, 1) infinite alternate;
+}
+
+.animate-contrail {
+  animation: contrailPulse 0.8s ease-in-out infinite;
+}
+
+.animate-radar {
+  animation: radarSweep 3s linear infinite;
+}
+
+/* Cinematic Airliner Sweep Animations (RTL & LTR) */
+@keyframes airlinerSweepRTL {
+  0% {
+    transform: translateX(115vw);
+  }
+  100% {
+    transform: translateX(-145vw);
+  }
+}
+
+@keyframes airlinerSweepLTR {
+  0% {
+    transform: translateX(-115vw);
+  }
+  100% {
+    transform: translateX(145vw);
+  }
+}
+
+.animate-airliner-sweep-rtl {
+  animation: airlinerSweepRTL 3.5s cubic-bezier(0.3, 0.05, 0.2, 1) forwards;
+}
+
+.animate-airliner-sweep-ltr {
+  animation: airlinerSweepLTR 3.5s cubic-bezier(0.3, 0.05, 0.2, 1) forwards;
+}

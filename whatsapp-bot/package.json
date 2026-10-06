@@ -1,0 +1,15 @@
+{
+  "name": "safarjet-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Free Baileys WhatsApp Engine for SafarJet Travel Agency",
+  "main": "bot.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.mjs"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "pino": "^9.2.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

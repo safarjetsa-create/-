@@ -1,0 +1,60 @@
+[
+  {
+    "id": "SJ-203585",
+    "clientName": "فيصل السبيعي",
+    "clientPhone": "+966599887766",
+    "clientEmail": "",
+    "serviceTitle": "حجز باقة: سحر جزر المالديف الملكي",
+    "travelDate": "",
+    "details": {
+      "travelers": "2",
+      "destination": "جزر المالديف"
+    },
+    "status": "contacted",
+    "createdAt": "2026-09-28T17:27:26.509Z"
+  },
+  {
+    "id": "SJ-804192",
+    "clientName": "فهد بن ناصر القحطاني",
+    "clientPhone": "+966505112233",
+    "clientEmail": "fahad@example.com",
+    "serviceTitle": "استئجار طائرة خاصة VIP",
+    "travelDate": "2026-10-15",
+    "details": {
+      "jetCategory": "Heavy Jet (حتى 14 راكب)",
+      "departureCity": "الرياض (الصالة الخاصة)",
+      "arrivalCity": "لندن - فارنبورو"
+    },
+    "status": "new",
+    "createdAt": "2026-09-28T10:15:00.000Z"
+  },
+  {
+    "id": "SJ-739102",
+    "clientName": "د. خالد المنصور",
+    "clientPhone": "+966555443322",
+    "clientEmail": "khalid@example.com",
+    "serviceTitle": "باقات العمرة وزيارة الحرمين",
+    "travelDate": "2026-10-20",
+    "details": {
+      "hotelTier": "5 نجوم إطلالة مباشرة على الكعبة",
+      "makkahNights": "4 ليالي",
+      "transportType": "قطار الحرمين درجة رجال أعمال"
+    },
+    "status": "contacted",
+    "createdAt": "2026-09-28T09:30:00.000Z"
+  },
+  {
+    "id": "SJ-612984",
+    "clientName": "سارة العبداللطيف",
+    "clientPhone": "+966544998877",
+    "clientEmail": "sara@example.com",
+    "serviceTitle": "العروض والباقات (المالديف)",
+    "travelDate": "2026-11-01",
+    "details": {
+      "resortType": "فيلا فوق الماء مع مسبح خاص",
+      "duration": "7 ليالي شامل الوجبات والطائرة المائية"
+    },
+    "status": "quoted",
+    "createdAt": "2026-09-27T14:20:00.000Z"
+  }
+]
